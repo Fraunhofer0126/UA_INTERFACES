@@ -26,6 +26,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotDamage.msg"
   "msg/RobotShoot.msg"
   "msg/LurkStatus.msg"
+  "msg/TwistAccel.msg"
+  "msg/GimbalAngle.msg"
   "srv/FricWhl.srv"
   "srv/ShootCmd.srv"
 )
