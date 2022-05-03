@@ -11,7 +11,6 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -30,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GimbalAngle.msg"
   "srv/FricWhl.srv"
   "srv/ShootCmd.srv"
+  DEPENDENCIES geometry_msgs nav_msgs std_msgs
 )
 
 if(BUILD_TESTING)
