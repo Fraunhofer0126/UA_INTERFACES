@@ -1,0 +1,11 @@
+-
+  ros1_package_name: 'roborts_msgs'
+  # ros1_message_name: 'Num'
+  ros2_package_name: 'ua_interfaces'
+  # ros2_message_name: 'Num'
+
+# -
+#   ros1_package_name: 'ka_interfaces'
+#   ros1_service_name: 'AddThreeInts'
+#   ros2_package_name: 'ka2_interfaces'
+#   ros2_service_name: 'AddThreeInts'
